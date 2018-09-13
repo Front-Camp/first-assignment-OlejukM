@@ -8,7 +8,7 @@
  * isObject(null); // false
  */
 const isObject = data => {
-  if (typeof data === 'Object') {
+  if (typeof data === 'object') {
     return true;
   } else {
     return false;
