@@ -8,7 +8,7 @@
  * @return {string} truncated string
  */
 const truncate = (str, length = 0, replacer = '...') => {
-  return str.substring(0,length - replacer.length) + replacer;
+  return str.substring(0, length - replacer.length) + replacer;
 };
 //console.log(truncate('Hello Eleks!', 9)); // => Hello... 
 
